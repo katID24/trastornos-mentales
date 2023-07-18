@@ -1,0 +1,113 @@
+<!-- DOCTYPE - Declaración de archivo tipo HTML -->
+<!DOCTYPE html>
+<!-- lang Lenguaje del sitio -->
+<html lang="en">
+    <!-- Head (Metadata) - infor para el navegador -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trastornos Mentales</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+<!--body - lo que ve el usuarix -->
+<body>
+    <main>
+        <h1 class="titulo">Transtornos Mentales </h1>
+        <div>
+            <a href="#depresion">Depresión</a>
+            <a href="#narcisista">Narcisista</a>
+            <a href="#esquizofrenia">Esquizofrenia</a>
+        </div>   
+        <!-- IMAGEN A TRAVÉS DE LA WEB -->
+        <img class="imagen1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGF5d5I1BmCe5ACAvxqPHD1qApKgkE_HOy3Q&usqp=CAU" alt="Descripción">
+        <!-- br - siguiente renglón -->
+        <br>
+        <!-- IMAGEN DESDE COMPUTADORA (/)-->
+        <img src="/images/tea.png" alt="TEA Ilustration">
+    
+        <div>
+         <!-- LISTAS -->
+            <h3>Top 8 de Trastornos más comúnes</h3>
+            <!-- LISTAS ORDENADAS -->
+            <ol>
+                <li>Trastorno de ansiedad</li>
+                <li>Depresión</li>
+                <li>Trastorno bipolar</li>
+                <li>Trastorno de estrés postraumático</li>
+                <li>Esquizofrenia</li>
+                <li>Trastornos de comportamiento alimentario</li>
+                <li>Trastornos de comportamiento disruptivo y disocial</li>
+                <li>Trastornos del neurodesarrollo</li>
+            </ol>
+            <!-- LISTAS NO ORDENADAS -->
+            <h3>¿Cómo cuidar tu salud mental?</h3>
+            <ul>
+                <li>Ten una red de apoyo</li>
+                <li>Evita el sedentarismo</li>
+                <li>Aliméntate bien</li>
+                <li>Descansa bien</li>
+                <li>Crea rutinas balanceadas</li>
+                <li>Ve a terapia si es posible💕</li>
+            </ul>
+        </div>
+        <!-- LINEA SEPARADORA -->
+        <hr>
+        <!-- TEMAS -->
+        <div>
+            <h2 id="depresion">Depression</h2>
+            <p>
+                La depresión es una enfermedad común pero grave que interfiere con la vida diaria, con la capacidad para trabajar, dormir, estudiar, comer y disfrutar de la vida. La depresión es causada por 
+                una combinación de factores genéticos, biológicos, ambientales y psicológicos.
+                Algunas investigaciones indican que el riesgo genético para la depresión es el resultado de la influencia de varios genes que actúan junto con factores ambientales y otros factores de riesgo.
+                Algunos tipos de depresión tienden a darse en familias. Sin embargo, la depresión también puede ocurrir en personas sin antecedentes familiares de depresión. No todas las personas con 
+                enfermedades depresivas experimentan los mismos síntomas. La gravedad, frecuencia y duración de los síntomas varían dependiendo de la persona y su enfermedad en particular
+            </p>
+
+            <h2 id="narcisista">Narcissistic Personality Disorder</h2>
+            <p>
+                El trastorno de la personalidad narcisista es una enfermedad de salud mental en la cual las personas tienen un aire irrazonable de superioridad. Necesitan y buscan demasiada atención, y 
+                quieren que las personas las admiren. Es posible que a las personas con este trastorno les cueste comprender o no les importen los sentimientos de los demás. Sin embargo, detrás de esta 
+                máscara de absoluta confianza propia, no están seguras de ellas mismas y reaccionan fácilmente a la más mínima crítica.
+                El trastorno de la personalidad narcisista causa problemas en muchas áreas de la vida, como las relaciones interpersonales, el trabajo, la escuela o los asuntos financieros. En general, 
+                las personas con trastorno de la personalidad narcisista pueden sentirse infelices y decepcionadas cuando no les hacen favores especiales o no reciben la admiración que creen merecer. 
+                Pueden sentir que sus relaciones interpersonales son conflictivas y poco satisfactorias, y es posible que los demás no disfruten de su compañía.
+                El tratamiento del trastorno de la personalidad narcisista se centra en la terapia de conversación o psicoterapia.
+                Este trastorno afecta más a los hombres que a las mujeres y, por lo general, comienza en la adolescencia o a principios de la adultez. Algunos niños pueden manifestar rasgos de narcicismo, 
+                pero esto suele ser típico de la edad, por lo que no significa que tendrán trastorno de la personalidad narcisista en el futuro
+            </p>
+
+            <h2 id="esquizofrenia">Schizophrenia</h2>
+            <p>
+                La esquizofrenia es una enfermedad mental grave que afecta la forma en que una persona piensa, siente y se comporta. Las personas con esquizofrenia pueden parecer como si hubieran perdido el 
+                contacto con la realidad, lo que puede ser angustioso para ellas, sus familiares y amigos. Los síntomas de la esquizofrenia pueden dificultar la participación en las actividades cotidianas 
+                o habituales, pero existen tratamientos eficaces. Muchas personas que reciben tratamiento pueden participar en la escuela o el trabajo, lograr su independencia y disfrutar de las relaciones 
+                personales.
+            </p>
+        </div>   
+            <a href="https://www.mayoclinic.org/es-es/diseases-conditions/narcissistic-personality-disorder/symptoms-causes/syc-20366662">Lee más aquí</a>
+        
+            <!-- FORMULARIOS -->
+            <div>
+                <form action="/enviar-respuesta">
+                    <!-- BOTÓN DE RADIO -->
+                    <p> ¿Cuántas horas duermes en una noche?</p>
+                    <label for="pocas">
+                        <input type="radio" name="sueño"> 4 - 6 horas
+                    </label>
+
+                    <label for="suficientes">
+                        <input type="radio" name="sueño"> 6 - 8 horas
+                    </label>
+
+                    <label for="normal">
+                        <input type="radio" name="sueño"> + de 8 horas
+                    </label>
+                </form>
+
+            </div>
+    </main>
+</body>
+</html>

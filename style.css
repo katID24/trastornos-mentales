@@ -1,0 +1,29 @@
+body {
+    background-color: #16614B;
+    color: cornsilk;
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 20px;
+}
+
+.titulo{
+    color:rgb(168, 230, 68)
+}
+
+h2{
+    color:rgb(168, 230, 99)
+}
+
+.imagen1{
+    width: 500px;
+    height
+}
+
+img{
+    width: 300px
+}
+
+/*
+selector {
+    propiedad: valor;
+}
+*/
